@@ -15,7 +15,11 @@ function Firstpage() {
       />
       <Eccomponent/>
       <br></br>
-      <a href="/">First Page</a>&nbsp;<a href="/second">Second Page</a>
+      <ol>
+        <li><a href="/">First Page</a>&nbsp;</li>
+        <li><a href="/second">Second Page</a>&nbsp;</li>
+        <li><a href="/third">Third Page</a></li>
+      </ol>
     </div>
   );
 }
