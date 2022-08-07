@@ -5,7 +5,7 @@ function Firstpage() {
   return (
     <div className="container">
     <div className="card border-dark">
-    <div className="card-header" align="center">First Page</div>
+    <div className="card-header" align="center">1st Page</div>
     <div className="card-body">
     <div className="row">
     <div className="col-lg-6">
