@@ -1,11 +1,11 @@
-function Mycomponent() {
+function Mycomponent(props) {
     
     const fuctionOutput = () => {
         alert("Govindaa..!");
     }
 
     return (
-      <button onClick={fuctionOutput} className="btn bg-success text-white">My Button</button>
+      <button onClick={fuctionOutput} className="btn bg-success text-white">{props.buttonText}</button>
     );
 }
 

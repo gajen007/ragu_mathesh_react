@@ -1,12 +1,12 @@
 
-const Eccomponent = () => {
+const Eccomponent = (props) => {
     
     const fuctionOutput = () => {
         alert("Allelooya..!");
     }
 
     return (
-      <button onClick={fuctionOutput} className="btn bg-danger text-white">My Button</button>
+      <button onClick={fuctionOutput} className="btn bg-danger text-white">{props.buttonText}</button>
     );
 }
 
