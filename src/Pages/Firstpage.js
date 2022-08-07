@@ -23,7 +23,7 @@ function Firstpage() {
     <li><a href="/">First Page</a>&nbsp;</li>
     <li><a href="/second">2nd Page</a>&nbsp;</li>
     <li><a href="/third">Third Page</a></li>
-    <li><a href="/fourth/4">Fourth (Parameter) Page</a></li>
+    <li><a href="/fourth/256/Gajen">Fourth (Parameter) Page</a></li>
     </ol>
     </div>
     </div>

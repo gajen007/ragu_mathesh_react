@@ -12,7 +12,7 @@ const Ourroutes = () => {
           <Route exact path="/" element={<Firstpage/>}/>
           <Route exact path="/second" element={<Secondpage/>}/>
           <Route exact path="/third" element={<Thirdpage/>}/>
-          <Route exact path="fourth/:id" element={<Fourthpage />}
+          <Route exact path="fourth/:id/:username" element={<Fourthpage />}
         />
         </Routes>
       </BrowserRouter>
