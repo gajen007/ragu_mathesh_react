@@ -21,7 +21,7 @@ function Firstpage() {
     <div className="col-lg-6">
     <ol>
     <li><a href="/">First Page</a>&nbsp;</li>
-    <li><a href="/second">Second Page</a>&nbsp;</li>
+    <li><a href="/second">2nd Page</a>&nbsp;</li>
     <li><a href="/third">Third Page</a></li>
     <li><a href="/fourth/4">Fourth (Parameter) Page</a></li>
     </ol>
