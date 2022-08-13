@@ -8,7 +8,7 @@ function Fourthpage() {
         <li><a href="/">First Page</a>&nbsp;</li>
         <li><a href="/second">Second Page</a>&nbsp;</li>
         <li><a href="/third">Third Page</a></li>
-        <li><a href="/fourth/256">Fourth (Parameter) Page</a></li>
+        <li><a href="/fourth/256/Gajen">Fourth (Parameter) Page</a></li>
       </ol>
     </div>
   );
