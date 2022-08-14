@@ -12,10 +12,12 @@ function Firstpage() {
               <Student
                 studentName="Raguraj"
                 studentEmail="ragu123@gmail.com"
+                studentID="1586"
               />
               <Student
                 studentName="Mathesh"
                 studentEmail="mathesh456@gmail.com"
+                studentID="2568"
               />
             </div>
             <div className="col-lg-6">
