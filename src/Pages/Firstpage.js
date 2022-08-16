@@ -1,6 +1,7 @@
 import Mycomponent from '../Components/Mycomponent.js';
 import Eccomponent from '../Components/Eccomponent.js';
 import Student from '../Components/Student.js';
+import {Link} from "react-router-dom";
 function Firstpage() {
   return (
     <div className="container">
@@ -22,11 +23,12 @@ function Firstpage() {
             </div>
             <div className="col-lg-6">
               <ol>
-                <li><a href="/">First Page</a>&nbsp;</li>
-                <li><a href="/second">2nd Page</a>&nbsp;</li>
-                <li><a href="/third">Third Page</a></li>
-                <li><a href="/fourth/256/Gajen">Fourth (Parameter) Page</a></li>
-                <li><a href="/fifth">Fifth Page (Form) Page</a></li>
+                <Link to={"/"}><li>First Page&nbsp;</li></Link>
+                <Link to={"/second"}><li>2nd Page&nbsp;</li></Link>
+                <Link to={"/third"}><li>Third Page&nbsp;</li></Link>
+                <Link to={"/fourth/256/Gajen"}><li>Fourth (Parameter) Page&nbsp;</li></Link>
+                <Link to={"/fifth"}><li>Fifth Page (Form) Page&nbsp;</li></Link>
+
               </ol>
             </div>
           </div>

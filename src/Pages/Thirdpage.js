@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import {Link} from "react-router-dom";
+
 
 function Thirdpage() {
   
@@ -21,10 +23,11 @@ function Thirdpage() {
       <br></br>
       <button onClick={ ()=>{setDummy("Nayanthara")} }>Try</button>
       <ol>
-        <li><a href="/">First Page</a>&nbsp;</li>
-        <li><a href="/second">Second Page</a>&nbsp;</li>
-        <li><a href="/third">Third Page</a></li>
-        <li><a href="/fourth/256/Gajen">Fourth (Parameter) Page</a></li>
+          <Link to={"/"}><li>First Page&nbsp;</li></Link>
+          <Link to={"/second"}><li>2nd Page&nbsp;</li></Link>
+          <Link to={"/third"}><li>Third Page&nbsp;</li></Link>
+          <Link to={"/fourth/256/Gajen"}><li>Fourth (Parameter) Page&nbsp;</li></Link>
+          <Link to={"/fifth"}><li>Fifth Page (Form) Page&nbsp;</li></Link>
       </ol>
     </div>
   );
